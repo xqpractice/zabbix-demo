@@ -1,5 +1,8 @@
 # zabbix-demo
 
+## Login
+* UserName: Admin
+* Password: zabbix
 
 # API 操作 Demo
 
@@ -14,7 +17,7 @@ $> curl -v -d \
   "id": 1
 }' \
 -H 'Content-Type: application/json' \
-http://localhost/api_jsonrpc.php
+http://localhost:7080/api_jsonrpc.php
 ```
 
 ## Login
@@ -31,7 +34,7 @@ $> curl -v -d \
     "id": 1
 }' \
 -H 'Content-Type: application/json' \
-http://localhost/api_jsonrpc.php
+http://localhost:7080/api_jsonrpc.php
 ```
 
 ## 获取用户
@@ -48,7 +51,7 @@ $> curl -v -d \
     "id": 1
 }' \
 -H 'Content-Type: application/json' \
-http://localhost/api_jsonrpc.php
+http://localhost:7080/api_jsonrpc.php
 ```
 
 ## 获取所有Host
@@ -66,5 +69,5 @@ $> curl -v -d \
     "id": 1
 }' \
 -H 'Content-Type: application/json' \
-http://localhost/api_jsonrpc.php
+http://localhost:7080/api_jsonrpc.php
 ```
